@@ -1946,6 +1946,7 @@ responsive
   .heading1{
     display: none;
   }
+  
   .containerr{
     display: flex;
     flex-wrap: wrap;
