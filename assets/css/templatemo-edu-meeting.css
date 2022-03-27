@@ -1831,11 +1831,107 @@ responsive
 
 }
 
+/*----------------------Footer CSS-----------------------------*/
+.footer{
+  background-color: rgba(18, 24, 24, 0.096);
+  color: white;
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+.footer a{
+  color: white;
+}
+
+.fitem{
+  margin: 1rem;
+}
+.fitem ul{
+  display: flex;
+
+}
+
+.fitem li{
+  text-decoration: none;
+}
+
+.item1{
+  
+   flex-grow: 1;
+   padding: 10px;
+}
+.item1 a{
+  
+  font-weight: 700;
+}
+.item1 a:hover{
+  
+  color: red;
+  
+}
+.item1 img{
+  height: 40px;
+  width: 40px;
+  margin: 14px 4px;
+}
+
+
+.item2{
+  
+   flex-grow: 2;
+   padding: 10px;
+ 
+}
+.item2 .links{
+  margin: 7px;
+  
+}
+.item2 .links li:hover{
+  
+  color: #f10b1e;
+}
+
+.item2 .links a:hover{
+ 
+  color: #e63946;
+}
+.item3{
+  
+   flex-grow: 1;
+   padding: 8px;
+}
+
+
+
+.footer .social-icons{
+  margin-left: 28%;
+}
+
+.footer .links {
+  font-size: 15px;
+  padding-top: 10px;
+  font-weight: 500;
+}
+
+.footer h1{
+  font-size: 30px;
+}
+
+
+#developers{
+  font-size: 12px;
+}
 /* custom css */
 @media(min-width : 767px){
   .heading2{
     display: none;
   }
+  .footer .social-icons{
+    
+  }
+
 }
 
 @media(max-width:767px){
@@ -1848,5 +1944,12 @@ responsive
   }
   .heading1{
     display: none;
+  }
+  .containerr{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer .social-icons{
+    margin: 0px 60px;
   }
 }
