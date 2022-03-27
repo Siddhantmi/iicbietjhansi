@@ -1940,7 +1940,8 @@ responsive
   }
   .front-img{
     margin-left : 0px;
-    margin-top: -120px;
+    margin-top: -80px;
+    width: 94%;
   }
   .heading1{
     display: none;
