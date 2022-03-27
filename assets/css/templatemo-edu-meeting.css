@@ -644,6 +644,7 @@ header
   .header-area .main-nav .nav {
     display: flex !important;
   }
+  
 }
 
 /* cutom css
@@ -1925,12 +1926,10 @@ responsive
 }
 /* custom css */
 @media(min-width : 767px){
-  .heading2{
+  /* .heading2{
     display: none;
-  }
-  .footer .social-icons{
-    
-  }
+  } */
+ 
 
 }
 
@@ -1944,9 +1943,16 @@ responsive
     width: 94%;
   }
   .heading1{
-    display: none;
+    font-size: 0.9rem;
+    margin-left: -2rem;
   }
-  
+  .header-area .main-nav .logo {
+    margin-top: 33px;
+    margin-left: 33px;
+    margin-right: 60px;
+    line-height: 20px;
+    
+  }
   .containerr{
     display: flex;
     flex-wrap: wrap;
